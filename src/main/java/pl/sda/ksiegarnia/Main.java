@@ -21,7 +21,7 @@ public class Main {
         bookList.add(book2);
         bookList.add(book3);
         bookList.add(book4);
-        
+
 
 
         objectMapper.writeValue(new File("ksiazki.json"), bookList);
