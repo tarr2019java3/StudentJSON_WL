@@ -22,8 +22,7 @@ public class Main {
         bookList.add(book3);
         bookList.add(book4);
 
-
-
+        
         objectMapper.writeValue(new File("ksiazki.json"), bookList);
    //    objectMapper.readValue(new File("ksiazki.json"), Book[].class );
 
